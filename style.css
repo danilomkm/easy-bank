@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Mono:wght@300&family=Open+Sans:wght@500&display=swap');
+</style>
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    font-size: 100%;
+    background: linear-gradient(68.15deg, rgba(6, 6, 6, 0.93) 42.39%, rgba(6, 6, 6, 0.93) 46.14%, rgba(15, 14, 14, 0.93) 51.87%, rgba(15, 14, 14, 0.93) 53.64%, rgba(15, 14, 14, 0.93) 57.33%, rgba(15, 14, 14, 0.93) 63.25%);
+border: 1px solid #000000;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+}
+
+.cabecalho-imagem{
+    height:72px;
+}
+
+.cabecalho-menu{
+    display: flex;
+    gap: 32px;
+}
+
+.cabecalho-menu-item{
+    font-family: 'DM Mono', monospace;
+    font-size; 18px;
+    color: #666464
+}
+
+.conteudo{
+    margin-bottom; 40px;
+    border-top: 0.4px solid #666464;
+}
+
+.conteudo-principal{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.conteudo-principal-escrito{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.conteudo-principal-titulo{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 50px;
+    color: #968C8C
+   
+}
+.conteudo-principal-subtitulo{
+    font-family: 'DM Mono', monospace;
+    font-weight: 400;
+    font-size: 24px;
+    color: #837b7b;
+}
+
+.conteudo-principal-escrito-botao{
+    background-color: #837b7b;
+    width: 180px;
+    height: 60px;
+    border: none;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+
+}
+.conteudo-principal-escrito-botao:hover{
+    background-color:  #fffdfd;
+    
+}
+
+.conteudo-principal-imagem{
+    height: 430px;
+}
+
+.conteudo-secundario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    margin-top: 48px;
+}
+
+.conteudo-secundario-titulo{
+    border-top: 0.4px solid #666464;
+    padding-top: 48px;
+}
+
+.conteudo-secundario-titulo{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: #968C8C
+}
+
+.conteudo-secundario-paragrafo{
+    font-family: 'DM Mono', monospace;
+    font-weight: 400;
+    font-size: 18px;
+    color: #837b7b;
+}
+
+.rodape{
+    padding: 32px;
+    border-top: 0.4px solid #666464;
+
+}
+
+.rodape-imagem{
+    height: 60px;
+    display: block;
+    margin: 0 auto;
+}
